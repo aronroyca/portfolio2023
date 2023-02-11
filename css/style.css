@@ -1,7 +1,7 @@
 /* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
     --black: #171321;
-    --dkgreen: #628281;
+    --dkblue: #04235C;
     --softbrown: #805C49;
     --hotteal: #00C9C2;
     --teal: #30B0AB;
@@ -28,7 +28,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--sans);
-    background-color: var(--dkgreen);
+    background-color: var(--dkblue);
     color: var(--white);
     font-size: var(--font-size);
 }
@@ -55,7 +55,7 @@ img {
 }
 
 .section-dkblue {
-    background-color: var(--dkgreen);
+    background-color: var(--dkblue);
 }
 
 .gradient {
