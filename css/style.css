@@ -34,7 +34,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
     margin: 0;
 }
 a {
@@ -47,6 +48,10 @@ a:hover {
 /* background color divs */
 .section-plum {
     background-color: var(--plum);
+}
+
+.section-dkblue {
+    background-color: var(--dkblue);
 }
 
 .gradient {
@@ -157,30 +162,51 @@ nav {
     background-color: var(--hotmag);
  }
 
-/* portfolio section */
-.portfolio {
-    padding: 2rem;
+/* projects section */
+#projects {
+    padding: 4rem 1rem;
     font: var(--sans);
 }
 
-.portfolio h2 {
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem *1.5);
+}
+
+#projects h3 {
     color: var(--aqua);
-    font-weight: bold;
 }
-.portfolio p {
-    background-color: var(--plum);
-    border-radius: 1rem;
+
+#projects h4 {
+    font-size: 1rem;
+    font-family: var(--mono);
+}
+.blackbox {
+    background-color: var(--black);
+    border-radius: 10px;
     padding: 2rem;
+    color: var(--white);
+    font-size: 1rem;
+    line-height: 1.5;
 }
-.portfolio ul {
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    list-style: none;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     gap: 2rem;
+    font-size: 1rem;
 }
-.portfolio img {
+
+#projects img {
+    margin: 2rem 0 4rem 0;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
     padding: 1rem;
-    border: 2px solid var(--aqua);
-    border-radius: 1rem;
 }
  /* footer section*/
 
@@ -199,7 +225,6 @@ nav {
     gap: 1rem;
     font-size: 3rem;
  }
-
 
 
  @media (min-width: 850px) {
