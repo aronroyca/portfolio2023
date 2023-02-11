@@ -156,10 +156,33 @@ nav {
     color: var(--white);
     background-color: var(--hotmag);
  }
-/* projects section */
 
+/* portfolio section */
+.portfolio {
+    padding: 2rem;
+    font: var(--sans);
+}
 
+.portfolio h2 {
+    color: var(--aqua);
+    font-weight: bold;
+}
+.portfolio p {
+    background-color: var(--plum);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.portfolio ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
 
+.portfolio img {
+    padding: 1rem;
+    border: 2px solid var(--aqua);
+    border-radius: 1rem;
+}
  /* footer section*/
 
  footer {
